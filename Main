@@ -1,0 +1,13 @@
+package com.gmail.bizki245;
+
+import java.io.File;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		TextGluing.saveEqualsWords(new File("a.txt"), new File("b.txt"), new File("c.txt"));
+
+	}
+
+}
